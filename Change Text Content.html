@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Change Text Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#changeTextButton").click(function() {
+                $("#myText").text("Hello, jQuery!");
+            });
+        });
+    </script>
+</head>
+<body>
+    <p id="myText">This is some text.</p>
+    <button id="changeTextButton">Change Text</button>
+</body>
+</html>
